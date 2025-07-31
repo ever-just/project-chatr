@@ -52,16 +52,20 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-					border: 'hsl(var(--sidebar-border))',
-					ring: 'hsl(var(--sidebar-ring))'
-				}
+				// Messaging app specific colors
+				'sidebar-bg': 'hsl(var(--sidebar-bg))',
+				'sidebar-foreground': 'hsl(var(--sidebar-foreground))',
+				'sidebar-muted': 'hsl(var(--sidebar-muted))',
+				'sidebar-accent': 'hsl(var(--sidebar-accent))',
+				'sidebar-border': 'hsl(var(--sidebar-border))',
+				'message-bg': 'hsl(var(--message-bg))',
+				'message-own': 'hsl(var(--message-own))',
+				'message-other': 'hsl(var(--message-other))',
+				'message-hover': 'hsl(var(--message-hover))',
+				'chat-input-bg': 'hsl(var(--chat-input-bg))',
+				'chat-timestamp': 'hsl(var(--chat-timestamp))',
+				'online-indicator': 'hsl(var(--online-indicator))',
+				'away-indicator': 'hsl(var(--away-indicator))'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
